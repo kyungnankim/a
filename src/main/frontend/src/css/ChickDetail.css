@@ -1,0 +1,57 @@
+.chicken-detail-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  perspective: 1000px;
+}
+
+.chicken-detail-container h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.chicken-detail-container p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.chicken-detail-container input,
+.chicken-detail-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+
+.chicken-detail-container input:hover,
+.chicken-detail-container textarea:hover {
+  transform: translateY(80px);
+}
+
+.chicken-detail-container button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, font-size 1s ease;
+}
+
+.chicken-detail-container button:hover {
+  background-color: #218838;
+  font-size: 20px;
+}
